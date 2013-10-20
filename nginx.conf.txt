@@ -1,0 +1,11 @@
+charset utf-8;
+
+#location ~ 403 {
+#    rewrite ^(.*)$ /\..*$ redirect;
+#}
+
+location / {
+    if (!-e $request_filename){
+        rewrite ^(.*)$ /index.php;
+    }
+}

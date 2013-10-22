@@ -13,7 +13,7 @@
                     <div><a href="mvcphp.framework.zip">Скачать MVCPHP Framework</a></div>
                     <div><a href="mvcphpframework.mp4">Скачать исходное видео mvcphp framework</a></div>
                     
-                    <div><a href="https://github.com/mvcphp/mvcphp-framework">GitHub MVCPHP Framework</a></div>
+                    <div><a rel="nofollow" href="https://github.com/mvcphp/mvcphp-framework" target="_blank">GitHub MVCPHP Framework</a></div>
                     
                     <h2>MVC php пример</h2>
                     <h3>Видео урок mvc php</h3>

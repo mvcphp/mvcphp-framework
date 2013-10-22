@@ -32,6 +32,11 @@ if(!ini_get('date.timezone')) {
 //перенаправляю на админку
 $route_array = explode('/', $_SERVER['REQUEST_URI']);
 if($route_array[1]=='admin') {
+    /////////////////////
+        $host = 'http://' . $_SERVER['HTTP_HOST'] . '/';
+        header('Location:' . $host . '404/');
+        exit();
+    /////////////////////
     include dirname(__FILE__).'/admin/index.php';
     exit();
 }

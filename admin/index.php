@@ -9,6 +9,12 @@
  * 
  */
 
+/////////////////////
+        $host = 'http://' . $_SERVER['HTTP_HOST'] . '/';
+        header('Location:' . $host . '404/');
+        exit();
+    /////////////////////
+
 //запускаю загрузчик
 define("Q_PATH",dirname(dirname(__FILE__)));
 include Q_PATH.'/admin/application/bootstrap.php';

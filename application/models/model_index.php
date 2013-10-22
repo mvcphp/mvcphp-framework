@@ -11,7 +11,7 @@
 class Model_Index extends Model {
 	
 	public function get_data(array $parameters) {
-                $this->tpl->html_title='Главная';
+                $this->tpl->html_title='MVC PHP Framework - mvc php пример скачать видео урок git';
 	}
 
 }

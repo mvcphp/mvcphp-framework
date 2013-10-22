@@ -23,8 +23,8 @@ class Config {
                 'db_pass'=>'',
                 'db_type'=>'mysql',
                 'db_charset' => 'utf8'
-            ),
-            'developer_mode'=>true
+            )//,
+            //'developer_mode'=>true
         );
         Settings::add($this->conf);
     }
